@@ -10,7 +10,7 @@ p {
   letter-spacing: 1px;
   font-size:14px;
   font-weight: bold;
-  color: #333333;
+  color: $third-color;
 }
 
 .header {
@@ -53,9 +53,15 @@ p {
 
 .content {
   position:relative;
-  height:20vh;
   text-align:center;
   background-color: $first-color;
+  height: 20vh;
+
+  h3 {
+    font-size: 24px;
+    border: 1px $fifth-color solid;
+    padding: 10px 40px;
+  }
 }
 
 /* Animation */
@@ -93,11 +99,13 @@ p {
     height:40px;
     min-height:40px;
   }
-  .content {
-    height:30vh;
-  }
+
   h1 {
-    font-size:24px;
-    margin: 0 0 100px;
+    font-size:32px;
+    margin: 0 0 80px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 }

@@ -1,3 +1,4 @@
+import HomeContent from '../HomeContent/homeContent';
 import Navbar from '../Navbar/navbar'
 import Sidebar from'../Sidebar/sidebar'
 import Waves from '../Waves/waves';
@@ -9,6 +10,7 @@ const Layout = () => {
             <Waves/>
             <Navbar/>
             <Sidebar/>
+            <HomeContent/>
         </>
     )
 }
