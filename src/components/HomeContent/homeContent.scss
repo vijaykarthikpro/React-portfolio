@@ -1,0 +1,10 @@
+@import '../../App.scss';
+
+.home-container {
+    padding: 10px 100px 50px;
+
+    p {
+        color: $fifth-color;
+        text-align: justify;
+    }
+}

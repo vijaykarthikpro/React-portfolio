@@ -72,7 +72,7 @@ const Waves = () =>{
 
             {/* <!--Content starts--> */}
                 <div class="content flex">
-                    <p>Vijay Karthik</p>
+                    <h3>Introduction</h3>
                 </div>
             {/* <!--Content ends--> */}
 
