@@ -1,4 +1,4 @@
-import './index.scss'
+import './sidebar.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 

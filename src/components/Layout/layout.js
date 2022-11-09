@@ -1,7 +1,7 @@
-import Navbar from '../Navbar'
-import Sidebar from'../Sidebar'
-import Waves from '../Waves';
-import './index.scss';
+import Navbar from '../Navbar/navbar'
+import Sidebar from'../Sidebar/sidebar'
+import Waves from '../Waves/waves';
+import './layout.scss';
 
 const Layout = () => {
     return (
