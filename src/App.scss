@@ -1,0 +1,18 @@
+$primary-color: white;
+$text-color: black;
+
+$first-color: #000000;
+$second-color: #3a415a;
+$third-color: #566981;
+$fourth-color: #89a7b1;
+$fifth-color: #cbdad5;
+$gradient-color: linear-gradient(to right, #3a415a , #cbdad5);
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("Poppins"),
+  url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@import 'animate.css';
+
