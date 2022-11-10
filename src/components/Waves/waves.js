@@ -33,7 +33,10 @@ const Waves = () =>{
 
             {/* <!--Content before waves--> */}
                 <div class="inner-header flex">
-                    <h1>Welcome</h1>
+                    <h1>I'm a <br/>software<br/>developer</h1>
+                </div>
+                <div className='hero-text'>
+                   
                 </div>
             {/* <!--Waves Container--> */}
                 <div>
@@ -60,8 +63,8 @@ const Waves = () =>{
                     <g class="parallax">
                     <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(216, 215, 196, 0.7)" />
                     <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgb(216, 215, 196,0.5)" />
-                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgb(216, 215, 196,0.3)" />
-                    <use xlinkHref="#gentle-wave" x="48" y="7" fill="#000000" />
+                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgb(255, 255, 255,0.3)" />
+                    <use xlinkHref="#gentle-wave" x="48" y="7" fill="rgb(0,0,0,1)" />
                     </g>
                     </svg>
                 </div>

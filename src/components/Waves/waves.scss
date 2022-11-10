@@ -24,17 +24,20 @@ p {
   width:100%;
   margin: 0;
   padding: 0;
+
+  h1 {
+    color: $bone;
+  }
 }
 
 .flex { /*Flexbox for containers*/
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .bg-background {
-  /*   transform: scale(1.6); */
+    transform: scale(1.8);
     position: absolute;
     left: 0;
     top: 0;
