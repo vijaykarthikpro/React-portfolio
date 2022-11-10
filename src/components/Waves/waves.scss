@@ -16,8 +16,8 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: $first-color;
-  color:$fifth-color;
+  background: $black;
+  color:$bone;
 }
 .inner-header {
   height:65vh;
@@ -54,12 +54,11 @@ p {
 .content {
   position:relative;
   text-align:center;
-  background-color: $first-color;
   height: 20vh;
 
   h3 {
     font-size: 24px;
-    border: 1px $fifth-color solid;
+    border: 1px $bone solid;
     padding: 10px 40px;
   }
 }
