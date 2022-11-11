@@ -4,16 +4,16 @@ html {
   font-family:'Poppins',-apple-system, BlinkMacSystemFont, Verdana, Arial, Helvetica, sans-serif;
 }
 body {
-  margin: 0;
-  color: $fifth-color;
-  background:$first-color;
+  margin: 0 auto;
+  color: $bone;
+  background:$black;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: auto;
 
   a[href] {
-    color: $fifth-color;
+    color: $bone;
     text-decoration: none;
 
     &:hover {
