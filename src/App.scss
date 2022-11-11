@@ -39,3 +39,10 @@ $gradient-bottom-right: linear-gradient(135deg, #000000ff, #f5f5f5ff, #d8d7c4ff)
 $gradient-top-left: linear-gradient(225deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
 $gradient-bottom-left: linear-gradient(315deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
 $gradient-radial: radial-gradient(#000000ff, #f5f5f5ff, #d8d7c4ff);
+
+.flex-centered {
+  /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
