@@ -1,12 +1,9 @@
-$primary-color: white;
-$text-color: black;
-
-$first-color: #000000;
+$cultered: #0f1012;
 $second-color: #3a415a;
 $third-color: #566981;
 $fourth-color: #89a7b1;
-$fifth-color: #cbdad5;
-$gradient-color: linear-gradient(to right, #3a415a , #cbdad5);
+$bone: #F5EDDC;
+$gradient-color: linear-gradient(to right, #3a415a , #dadac6);
 
 @font-face {
   font-family: 'Poppins';
@@ -16,3 +13,36 @@ $gradient-color: linear-gradient(to right, #3a415a , #cbdad5);
 
 @import 'animate.css';
 
+
+/* SCSS HEX */
+$black: #000000ff;
+$cultured: #f5f5f5ff;
+$bone: #d8d7c4ff;
+
+/* SCSS HSL */
+$black: hsla(0, 0%, 0%, 1);
+$cultured: hsla(0, 0%, 96%, 1);
+$bone: hsla(57, 20%, 81%, 1);
+
+/* SCSS RGB */
+$black: rgba(0, 0, 0, 1);
+$cultured: rgba(245, 245, 245, 1);
+$bone: rgba(216, 215, 196, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-right: linear-gradient(90deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-bottom: linear-gradient(180deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-left: linear-gradient(270deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-top-right: linear-gradient(45deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-bottom-right: linear-gradient(135deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-top-left: linear-gradient(225deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-bottom-left: linear-gradient(315deg, #000000ff, #f5f5f5ff, #d8d7c4ff);
+$gradient-radial: radial-gradient(#000000ff, #f5f5f5ff, #d8d7c4ff);
+
+.flex-centered {
+  /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,6 +1,6 @@
 @import '../../App.scss';
 .sidebar {
-    position: absolute;
+    position: fixed;
     top: 100px;
     padding: 0;
     list-style: none;
@@ -14,7 +14,7 @@
         font-size: 24px;
 
         svg {
-            color: $fifth-color;
+            color: $bone;
         }
 
         &:hover svg {
