@@ -25,7 +25,7 @@ const Navbar = () => {
                 </NavLink>
             </nav>
             <Sidebar/>
-            <span className='scroll-down'>Scroll down -></span>
+            <span className='scroll-down'>Scroll down -{'>'}</span>
         </div>
     )
 }
