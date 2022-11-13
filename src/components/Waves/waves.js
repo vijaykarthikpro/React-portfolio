@@ -36,8 +36,10 @@ const Waves = () =>{
             <div class="header">
 
             {/* <!--Content before waves--> */}
-                <div class="inner-header flex-centered">
-                    <h1>I'm a <br/>software<br/>developer</h1>
+                <div class="container inner-header flex-centered">
+                    <span>Hello I'm</span>
+                    <h1>Vijay Karthik</h1>
+                    <h4>Fullstack Developer</h4>
                 </div>
             {/* <!--Hexagons Container--> */}
                 <div className='hexagons' ref={hexagons}>

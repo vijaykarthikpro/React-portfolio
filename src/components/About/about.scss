@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+.container {
+    padding: 10px 100px 50px;
+
+    p {
+        color: $bone;
+        text-align: justify;
+    }
+
+    .about-me-section {
+        margin-top: 20px;
+        display: flex;
+        grid-gap: 120px;
+
+        .about-me-pic {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            img {
+                width: 300px;
+                border-radius: 30px;
+            }
+        }
+        .description {
+            width: 50%;
+        }
+    }
+    
+}

@@ -12,19 +12,20 @@ const Navbar = () => {
             </Link>
             <nav>
                 <NavLink exact="true" activeclassname="active" to='/'>
-                    <h2>Home</h2>
+                    <button className='btn'>Home</button>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" to='/'>
-                    <h2>About</h2>
+                    <button className='btn'>About</button>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" to='/'>
-                    <h2>Portfolio</h2>
+                    <button className='btn'>Portfolio</button>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" to='/'>
-                    <h2>Contact</h2>
+                    <button className='btn'>Contact</button>
                 </NavLink>
             </nav>
             <Sidebar/>
+            <span className='scroll-down'>Scroll down -{'>'}</span>
         </div>
     )
 }
