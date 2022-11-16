@@ -5,12 +5,14 @@ import Portfolio from "../Portfolio/portfolio";
 import Waves from "../Waves/waves";
 import Footer from "../Footer/footer";
 import "./layout.scss";
+import SmallNav from "../SmallNav/smallNav";
 
 const Layout = () => {
   return (
     <>
       <Navbar />
       <Waves />
+      <SmallNav/>
       <About />
       <Portfolio />
       <Contact />

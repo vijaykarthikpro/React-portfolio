@@ -3,7 +3,7 @@ import './homeContent.scss'
 const HomeContent = () =>{
     return (
         <div className='home-container'>
-            <div class="content flex-centered">
+            <div className="content flex-centered">
                 <h3>About me</h3>
             </div>
             <p></p>

@@ -30,15 +30,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: auto;
   line-height: 1.7;
-
-  a[href] {
-    color: $bone;
-    text-decoration: none;
-
-    &:hover {
-      color: $third-color;
-    }
-  }
 }
 
 /* ============ GENERAL STYLES ================= */
@@ -73,6 +64,7 @@ section {
 }
 
 a {
+  cursor: pointer;
   transition: $transition;
 }
 

@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Sidebar from '../Sidebar/sidebar'
 import './navbar.scss'
 
@@ -11,18 +11,10 @@ const Navbar = () => {
                 <img src="" alt='logo'/>
             </Link>
             <nav>
-                <NavLink exact="true" activeclassname="active" to='/'>
-                    <button className='btn'>Home</button>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" to='/'>
-                    <button className='btn'>About</button>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" to='/'>
-                    <button className='btn'>Portfolio</button>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" to='/'>
-                    <button className='btn'>Contact</button>
-                </NavLink>
+                <a href="#" className='btn'>Home</a>
+                <a href="#about" className='btn'>About</a>
+                <a href="#portfolio" className='btn'>Portfolio</a>
+                <a href="#contact" className='btn'>Contact</a>
             </nav>
             <Sidebar/>
             <span className='scroll-down'>Scroll down -{'>'}</span>
