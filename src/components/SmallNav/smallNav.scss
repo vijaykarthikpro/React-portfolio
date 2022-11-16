@@ -26,5 +26,10 @@
             color:$bone;
         }
     }
+
+    a.active {
+        background-color: $black;
+        color:$bone;
+    }
 }
 
