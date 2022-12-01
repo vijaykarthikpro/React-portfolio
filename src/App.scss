@@ -13,7 +13,7 @@ $gradient-color: linear-gradient(to right, #3a415a , #dadac6);
 
 @import 'animate.css';
 
-$container-width-lg: 65%;
+$container-width-lg: 70%;
 $container-width-md: 86%;
 $container-width-sm: 90%;
 
@@ -58,13 +58,13 @@ $breakpoint-tab:600px;
 
 
 @mixin mobile {
-  @media (max-width: #{$breakpoint-tab - 1px}) {
+  @media (max-width: #{$breakpoint-tab}) {
     @content;
   }
 }
 
 @mixin tab {
-  @media (min-width: #{$breakpoint-tab}) and (max-width: #{$breakpoint-desktop - 1px}) {
+  @media (min-width: #{$breakpoint-tab}) and (max-width: #{$breakpoint-desktop}) {
     @content;
   }
 }
@@ -76,7 +76,7 @@ $breakpoint-tab:600px;
 }
 
 @mixin tab-and-mobile {
-  @media (max-width: #{$breakpoint-desktop - 1px}) {
+  @media (max-width: #{$breakpoint-desktop}) {
       @content;
   }
 }

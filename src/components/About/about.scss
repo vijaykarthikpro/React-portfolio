@@ -77,7 +77,7 @@
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
-@media screen and (max-width: 1024px) {
+@include tab-and-mobile {
     .container {
         .about-me-section {
             flex-direction: column;
@@ -99,7 +99,7 @@
 }
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (max-width: 600px) {
+@include mobile {
     .container {
         padding: 10px 20px 50px;
     }

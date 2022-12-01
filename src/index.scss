@@ -35,6 +35,7 @@ body {
 /* ============ GENERAL STYLES ================= */
 .container {
   width: $container-width-lg;
+  max-width: 1440px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -101,7 +102,7 @@ img {
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
-@media screen and (max-width: 1024px) {
+@include tab {
   .container {
     width: $container-width-md;
   }
@@ -112,7 +113,7 @@ img {
 
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (max-width: 600px) {
+@include mobile {
   .container {
     width: $container-width-sm;
   }
