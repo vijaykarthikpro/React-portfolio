@@ -42,11 +42,12 @@ body {
   .content {
     position: relative;
     text-align: center;
-    height: 20vh;
+    height: 15vh;
 
     span {
-        font-size: 16px;
-        border: 1px $bone solid;
+        font-size: 20px;
+        border: 1px solid $bone;
+        background-color: $black;
         border-radius: 50px;
         padding: 10px 30px;
     }
@@ -83,6 +84,11 @@ a {
   transition: $transition;
 
   &:hover {
+    background-color: $bone;
+    color: $black
+  }
+
+  &-primary {
     background-color: $bone;
     color: $black
   }

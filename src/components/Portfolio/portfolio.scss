@@ -1,0 +1,68 @@
+@import "../../App.scss";
+
+.portfolio_container {
+    border: 1px $black solid;
+    border-radius: 10px;
+    background: $container-bg;
+    padding: 0;
+    background-color: transparent;
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+
+        .portfolio__item {
+            background-color: $container-bg;
+            border-radius: 10px;
+            border: 1px solid $black;
+            transition: $transition;
+            padding: 30px;
+
+            &:hover {
+                border: 1px solid transparent;
+                background-color: $black;
+                color: $bone;
+            }
+
+            &-image img {
+                border-radius: 10px;
+            }
+
+            h3 {
+                margin: 1.2rem 0 2rem;
+            }
+
+            &-cta {
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+}
+
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+    .portfolio_container {
+        padding: 10px 40px 50px;
+        .portfolio__items {
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+        }
+    }
+}
+
+/* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+    .portfolio_container {
+        padding: 10px 20px 50px;
+        .portfolio__items {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+}
