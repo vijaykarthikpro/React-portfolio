@@ -6,21 +6,20 @@
   color: $bone;
 
   .inner-header {
-    height: 65vh;
     width: 100%;
+    height: calc(100vh - 300px);
     padding: 0;
     display: flex;
     flex-direction: column;
 
-    span {
-      margin-bottom: -8px;
+    h1 {
+      font-weight: medium;
+      font-size: 42px;
     }
-
   }
 
   .hexagons {
     .bg-background {
-      transform: scale(1.6);
       position: fixed;
       left: 0;
       top: 0;
@@ -97,7 +96,7 @@
   .header {
     .inner-header {
       margin-bottom: 10px;
-      height: 56vh;
+      height: calc(100vh - 300px);
     }
   }
 
