@@ -45,8 +45,8 @@ const Portfolio = ()=>{
                                     </div>
                                     <h3>{title}</h3>
                                     <div className='portfolio__item-cta'>
-                                        <a href='https://style-beast.netlify.app/' className='btn' rel="noreferrer" target='_blank'>Live Demo</a>
-                                        <a href='https://github.com/pesto-students/little-tags-vijaykarthikpro' className='btn' rel="noreferrer" target='_blank'>Github</a>
+                                        <a href={demo} className='btn' rel="noreferrer" target='_blank'>Live Demo</a>
+                                        <a href={github} className='btn' rel="noreferrer" target='_blank'>Github</a>
                                     </div>
                                 </article>
                             )
