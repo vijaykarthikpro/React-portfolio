@@ -3,7 +3,6 @@
 .header {
   position: relative;
   text-align: center;
-  background: $black;
   color: $bone;
 
   .inner-header {
@@ -23,11 +22,11 @@
   .hexagons {
     .bg-background {
       transform: scale(1.6);
-      position: absolute;
+      position: fixed;
       left: 0;
       top: 0;
       width: 100%;
-      height: 82%;
+      height: 95%;
     }
   }
 
@@ -80,7 +79,6 @@
 
   h1 {
     font-size: 32px;
-    margin: 0 0 80px;
   }
 
   h3 {
