@@ -3,31 +3,28 @@
 .header {
   position: relative;
   text-align: center;
-  background: $black;
   color: $bone;
 
   .inner-header {
-    height: 65vh;
     width: 100%;
-    margin: 0;
+    height: calc(100vh - 300px);
     padding: 0;
+    display: flex;
+    flex-direction: column;
 
     h1 {
-      font-family: "Poppins";
-      font-weight: 700;
-      letter-spacing: 2px;
-      font-size: 48px;
+      font-weight: medium;
+      font-size: 42px;
     }
   }
 
   .hexagons {
     .bg-background {
-      transform: scale(1.6);
-      position: absolute;
+      position: fixed;
       left: 0;
       top: 0;
       width: 100%;
-      height: 82%;
+      height: 95%;
     }
   }
 
@@ -71,19 +68,47 @@
     transform: translate3d(85px, 0, 0);
   }
 }
+
+
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@include tab {
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+}
+
+
 /*Shrinking for mobile*/
-@media (max-width: 768px) {
+@include mobile {
   .waves {
     height: 40px;
     min-height: 40px;
   }
 
+  .header {
+    .inner-header {
+      margin-bottom: 10px;
+      height: calc(100vh - 300px);
+    }
+  }
+
   h1 {
-    font-size: 32px;
-    margin: 0 0 80px;
+    font-size: 24px;
   }
 
   h3 {
     font-size: 18px;
+  }
+
+  h4 {
+    font-size: 12px;
   }
 }
