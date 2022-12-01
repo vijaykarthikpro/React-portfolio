@@ -47,7 +47,7 @@ const Waves = () =>{
             <div className="header">
 
             {/* <!--Content before waves--> */}
-                <div className="container inner-header flex-centered">
+                <div className="container inner-header flex-centered" style={{transform: `translateY(${ offsetY * 0.5}px)`}}>
                     <h1>Vijay Karthik</h1>
                     <h4>Software Developer</h4>
                 </div>
