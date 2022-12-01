@@ -86,12 +86,17 @@ a {
 
   &:hover {
     background-color: $bone;
-    color: $black
+    color: $black;
   }
 
   &-primary {
     background-color: $bone;
-    color: $black
+    color: $black;
+
+    &:hover {
+      background-color: $black;
+      color: $bone;
+    }
   }
 }
 
