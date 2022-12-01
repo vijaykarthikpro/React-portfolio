@@ -19,10 +19,14 @@
 
         svg {
             color: $bone;
-        }
+            transition: $transition;
+            padding: 0.7rem;
+            border-radius: 50px;
 
-        &:hover svg {
-           color: $third-color;
+            &:hover {
+                color: $black;
+                background-color: $bone;
+            }
         }
     }
 }
