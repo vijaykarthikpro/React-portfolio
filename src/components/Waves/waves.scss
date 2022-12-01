@@ -3,7 +3,6 @@
 .header {
   position: relative;
   text-align: center;
-  background: $black;
   color: $bone;
 
   .inner-header {
@@ -23,11 +22,11 @@
   .hexagons {
     .bg-background {
       transform: scale(1.6);
-      position: absolute;
+      position: fixed;
       left: 0;
       top: 0;
       width: 100%;
-      height: 82%;
+      height: 95%;
     }
   }
 
@@ -71,19 +70,44 @@
     transform: translate3d(85px, 0, 0);
   }
 }
+
+
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+}
+
+
 /*Shrinking for mobile*/
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .waves {
     height: 40px;
     min-height: 40px;
   }
 
+  .inner-header {
+    margin-bottom: 10px;
+  }
+
   h1 {
-    font-size: 32px;
-    margin: 0 0 80px;
+    font-size: 24px;
   }
 
   h3 {
     font-size: 18px;
+  }
+
+  h4 {
+    font-size: 12px;
   }
 }

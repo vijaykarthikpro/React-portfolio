@@ -23,8 +23,8 @@ html {
 
 body {
   margin: 0 auto;
+  background: $black;
   color: $bone;
-  background:$black;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,6 +36,8 @@ body {
 .container {
   width: $container-width-lg;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 
   .content {
     position: relative;
