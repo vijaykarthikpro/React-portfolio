@@ -39,7 +39,7 @@ const Waves = () =>{
                 <div className="container inner-header flex-centered">
                     <span>Hello I'm</span>
                     <h1>Vijay Karthik</h1>
-                    <h4>Fullstack Developer</h4>
+                    <h4>Software Developer</h4>
                 </div>
             {/* <!--Hexagons Container--> */}
                 <div className='hexagons' ref={hexagons}>
