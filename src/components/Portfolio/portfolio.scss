@@ -47,7 +47,7 @@
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
-@media screen and (max-width: 1024px) {
+@include tab {
     .portfolio_container {
         padding: 10px 40px 50px;
         .portfolio__items {
@@ -58,7 +58,7 @@
 }
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (max-width: 600px) {
+@include mobile {
     .portfolio_container {
         padding: 10px 20px 50px;
         .portfolio__items {
