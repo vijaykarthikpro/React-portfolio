@@ -1,6 +1,6 @@
 import "./smallNav.scss";
 import { IoHomeOutline } from "react-icons/io5";
-import { BiUser, BiBookContent } from "react-icons/bi";
+import { BiUser, BiBookContent, BiBookBookmark } from "react-icons/bi";
 import { FiPhoneCall } from "react-icons/fi";
 import { useState } from "react";
 
@@ -31,6 +31,14 @@ const SmallNav = () => {
         aria-label="Portfolio"
       >
         <BiBookContent />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+        aria-label="Experience"
+      >
+        <BiBookBookmark />
       </a>
       <a
         href="#contact"
