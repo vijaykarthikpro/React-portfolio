@@ -4,25 +4,20 @@
     gap: 40px;
     align-items: center;
     margin-right: 40px;
-  /*   position: absolute;
-    top: 150px;
-    left: 50px;
-    padding: 0;
-    list-style: none;
-
-    li {
-        margin-bottom: 20px;
-    } */
 
     .social-media-icons {
         font-size: 24px;
 
         svg {
             color: $bone;
-        }
+            transition: $transition;
+            padding: 0.7rem;
+            border-radius: 50px;
 
-        &:hover svg {
-           color: $third-color;
+            &:hover {
+                color: $black;
+                background-color: $bone;
+            }
         }
     }
 }
