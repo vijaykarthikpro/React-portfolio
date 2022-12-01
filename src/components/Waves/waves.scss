@@ -70,18 +70,44 @@
     transform: translate3d(85px, 0, 0);
   }
 }
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
 
+
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
   h1 {
     font-size: 32px;
   }
 
   h3 {
     font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+}
+
+
+/*Shrinking for mobile*/
+@media screen and (max-width: 600px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+  .inner-header {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 12px;
   }
 }

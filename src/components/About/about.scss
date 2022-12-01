@@ -97,6 +97,13 @@
    
 }
 
+/* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px 20px 50px;
+    }
+}
+
 @keyframes shadow {
     from {
         box-shadow: 0;
