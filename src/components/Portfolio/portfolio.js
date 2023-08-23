@@ -10,7 +10,7 @@ const Portfolio = ()=>{
         {
             id: 1,
             image: IMG3,
-            title: "Custom React portfolio website",
+            title: "Custom portfolio website",
             github: "https://github.com/vijaykarthikpro/React-portfolio",
             demo: "https://vijaykarthikpro.com"
         },
@@ -33,7 +33,7 @@ const Portfolio = ()=>{
         <section id="portfolio">
             <div className='container portfolio_container'>
                 <div className='content flex-centered'>
-                    <span>Portfolio</span>
+                    <span>PORTFOLIO</span>
                 </div>
                 <div className='portfolio__items'>
                     {
