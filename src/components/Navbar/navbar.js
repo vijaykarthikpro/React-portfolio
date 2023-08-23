@@ -11,7 +11,7 @@ const Navbar = () => {
                 {/* <span>VIJAY KARTHIK BETHAPUDI</span> */}
             </Link>
             <Sidebar/>
-            <span className='scroll-down'>Scroll down -{'>'}</span>
+            <span ><a href='#about' className='scroll-down'>Scroll down -{'>'}</a></span>
         </div>
     )
 }

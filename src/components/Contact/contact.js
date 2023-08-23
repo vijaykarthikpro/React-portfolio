@@ -24,7 +24,7 @@ const Contact = ()=>{
         <section id='contact'>
             <div className="container contact__container">
                 <div className="content flex-centered">
-                    <span>Get In Touch</span>
+                    <span>GET IN TOUCH</span>
                 </div>
                 <div className='contact__options'>
                     <article className='contact__option'>

@@ -8,7 +8,7 @@ const About = () => {
     <section id="about">
         <div className="container about-container">
             <div className="content flex-centered">
-                <span>About me</span>
+                <span>ABOUT ME</span>
             </div>
             <div className="about-me-section">
                 <div className="about-me-pic">
@@ -19,15 +19,17 @@ const About = () => {
                         <article className="about__card">
                             <BsAward className="about__card-icon"/>
                             <h5>Experience</h5>
-                            <small>4+ Years Working</small>
+                            <small>5+ Years Working</small>
                         </article>
                         <article className="about__card">
                             <VscFolderLibrary className="about__card-icon"/>
                             <h5>Projects</h5>
-                            <small>5+ Projects</small>
+                            <small>20+ Projects</small>
                         </article>
                     </div>
-                    <p>Hi, I'm Vijay Karthik Bethapudi, a software developer with strong coding and design skills. I was born in 1996 in Hyderabad, India. With more than five projects, including frontend, backend, and Android programming, I worked at two startups. I adore adding UI animations and improving products with strong, useful, and distinctive interfaces that are simple to use.</p>
+                    <p>Hi, I'm Vijay Karthik Bethapudi. Welcome to my digital realm, where software innovation meets the art of data science! With a robust five-year expedition in software development, I've honed my skills in crafting intricate codes and architecting intuitive solutions. But the thrill of learning continues to propel me forward.
+                    Currently, I'm immersing myself in the captivating universe of Data Science through the Applied AI Solutions Development course. Join me as I traverse the ever-evolving landscapes of technology, leaving a trail of creativity and problem-solving along the way.
+                    </p>
                     <a href="#contact" className="btn">Let's Talk</a>
                 </div>
             </div>
