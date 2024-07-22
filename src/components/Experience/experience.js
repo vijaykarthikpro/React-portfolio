@@ -11,7 +11,7 @@ const Experience = ()=>{
         {
             id: 2,
             title: 'CSS / SCSS',
-            level: 'Intermediate'
+            level: 'Experienced'
         },
         {
             id: 3,
@@ -21,17 +21,17 @@ const Experience = ()=>{
         {
             id: 4,
             title: 'Python',
-            level: 'Experienced'
+            level: 'Intermediate'
         },
         {
             id: 5,
             title: 'React',
-            level: 'Intermediate'
+            level: 'Experienced'
         },
         {
             id: 6,
             title: 'Java',
-            level: 'Intermediate'
+            level: 'Experienced'
         },
     ]
 
@@ -54,7 +54,7 @@ const Experience = ()=>{
         {
             id: 4,
             title: 'AWS',
-            level: 'Intermediate'
+            level: 'Experienced'
         },
         {
             id: 5,
@@ -64,7 +64,7 @@ const Experience = ()=>{
         {
             id: 6,
             title: 'Azure',
-            level: 'Intermediate'
+            level: 'Experienced'
         },
     ]
 
