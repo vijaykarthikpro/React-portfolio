@@ -27,8 +27,7 @@ const About = () => {
                             <small>20+ Projects</small>
                         </article>
                     </div>
-                    <p>Hi, I'm Vijay Karthik Bethapudi. Welcome to my digital realm, where software innovation meets the art of data science! With a robust five-year expedition in software development, I've honed my skills in crafting intricate codes and architecting intuitive solutions. But the thrill of learning continues to propel me forward.
-                    Currently, I'm immersing myself in the captivating universe of Data Science through the Applied AI Solutions Development course. Join me as I traverse the ever-evolving landscapes of technology, leaving a trail of creativity and problem-solving along the way.
+                    <p>Hi, I'm Vijay Karthik Bethapudi. Welcome to my digital realm, where the synergy of software engineering and artificial intelligence fuels innovative solutions! With a robust five-year career as a Senior Software Engineer, I've honed my skills in developing complex software and creating seamless, user-centric designs. My recent completion of the Applied AI Solutions Development course has further enhanced my expertise in AI. I’m passionate about integrating cutting-edge technology with frontend mastery to craft intuitive and engaging user experiences. Join me as I explore the dynamic world of tech, blending creativity and advanced problem-solving in every project.
                     </p>
                     <a href="#contact" className="btn">Let's Talk</a>
                 </div>
